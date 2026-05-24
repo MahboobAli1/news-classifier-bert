@@ -1,55 +1,62 @@
 # 📰 News Topic Classifier using BERT
 
-A fine-tuned transformer-based NLP model that classifies news headlines into predefined categories using **BERT (bert-base-uncased)**.  
+A fine-tuned transformer-based NLP model that classifies news headlines into predefined categories using **BERT (bert-base-uncased)**.
 The project includes model training, evaluation, and deployment using **Streamlit + Hugging Face Spaces**.
 
 ---
 
 ## 🚀 Live Demo
-👉https://huggingface.co/spaces/MahboobAli123/news-classifier 
+
+👉 [https://huggingface.co/spaces/MahboobAli123/news-classifier](https://huggingface.co/spaces/MahboobAli123/news-classifier)
+
+---
 
 ## 📌 Project Objective
 
 The goal of this project is to:
-- Fine-tune a pretrained BERT model on the AG News dataset
-- Classify news headlines into topic categories
-- Evaluate performance using accuracy and F1-score
-- Deploy the model using a web interface (Streamlit)
+
+* Fine-tune a pretrained BERT model on the AG News dataset
+* Classify news headlines into topic categories
+* Evaluate performance using accuracy and F1-score
+* Deploy the model using a web interface (Streamlit)
 
 ---
 
 ## 🧠 Model Details
 
-- Model: `bert-base-uncased`
-- Framework: Hugging Face Transformers
-- Task: Text Classification
-- Dataset: AG News Dataset (Hugging Face Datasets)
+* Model: `bert-base-uncased`
+* Framework: Hugging Face Transformers
+* Task: Text Classification
+* Dataset: AG News Dataset (Hugging Face Datasets)
 
 ---
 
 ## 📊 Dataset Information
 
-- **Dataset:** AG News Dataset
-- **Classes:**
-  - World
-  - Sports
-  - Business
-  - Sci/Tech
+* **Dataset:** AG News Dataset
 
-- **Samples:**
-  - Train: 120,000 samples
-  - Test: 7,600 samples
+* **Classes:**
+
+  * World
+  * Sports
+  * Business
+  * Sci/Tech
+
+* **Samples:**
+
+  * Train: 120,000 samples
+  * Test: 7,600 samples
 
 ---
 
 ## ⚙️ Tech Stack
 
-- Python 🐍
-- PyTorch 🔥
-- Hugging Face Transformers 🤗
-- Hugging Face Datasets
-- Streamlit 🎈
-- scikit-learn 📊
+* Python 🐍
+* PyTorch 🔥
+* Hugging Face Transformers 🤗
+* Hugging Face Datasets
+* Streamlit 🎈
+* scikit-learn 📊
 
 ---
 
@@ -67,14 +74,23 @@ The goal of this project is to:
 
 ## 📈 Model Performance
 
-- Accuracy: **92%+**
-- F1 Score: **0.92+**
+* Accuracy: **92%+**
+* F1 Score: **0.92+**
 
 ---
 
 ## 🖥️ How to Run Locally
 
 ### 1. Clone repository
+
 ```bash
 git clone https://github.com/your-username/news-classifier-bert.git
 cd news-classifier-bert
+```
+
+---
+
+## 👨‍💻 Author
+
+**Mahboob Ali**
+AI/ML Student | Aspiring Machine Learning Engineer
